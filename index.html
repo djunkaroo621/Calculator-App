@@ -3,155 +3,175 @@
 <head>
 <title>CALCULATOR</title>
 <style>
-input {
-  /* float: left; */
-  font-size: 75px;
-  width: 275px;
-  /* border-radius: 50%; */
-  /* padding: 10px 10px; */
+body {
+  background-image: url("matrix-green-numbers.jpg");
+}
+
+.jumboWrapper {
+  background-color: black;
+  width: 400px;
+  margin: auto auto auto auto;
+
+}
+.btn {
+  font-size: 20px;
+  height:80px;
+  width: 80px;
+  border-radius: 15px;
   background-color: grey;
 }
- .wrapper {
+ .buttons {
   display: grid;
   grid-template-columns: repeat(5, 0fr);
   grid-gap: 0px;
-  grid-auto-rows: ;
+  grid-auto-rows: auto;
   text-align: center;
 }
-.inputBox {
-  grid-column:
-  grid-row: 1
+.graphicBox {
+  background-color: white;
+  height: 50px;
+  width: 395px;
+  font-size: 20px;
+}
+.inputDisplay {
+  grid-column: 1/5;
+  grid-row: 1;
 }
 .one {
-  grid-column: 1/5
+  grid-column: 1;
   grid-row: 2;
 }
 .two {
-  grid-column: 2/5
+  grid-column: 2;
   grid-row: 2;
 }
 .three {
-  grid-column: 3/5
+  grid-column: 3;
   grid-row: 2;
 }
 .four {
-  grid-column: 4/5
+  grid-column: 4;
   grid-row: 2;
 }
 .five {
-  grid-column: 5/5
+  grid-column: 5;
   grid-row: 2;
 }
 .six {
-  grid-column: 1/5
+  grid-column: 1;
   grid-row: 3;
 }
 .seven {
-  grid-column: 2/5
+  grid-column: 2;
   grid-row: 3;
 }
 .eight {
-  grid-column: 3/5
+  grid-column: 3;
   grid-row: 3;
 }
 .nine {
-  grid-column: 4/5
+  grid-column: 4;
   grid-row: 3;
 }
 .ten {
-  grid-column: 5/5
+  grid-column: 5;
   grid-row: 3;
 }
 .eleven {
-  grid-column: 1/5
+  grid-column: 1;
   grid-row: 4;
 }
 .twelve {
-  grid-column: 2/5
+  grid-column: 2;
   grid-row: 4;
 }
 .thirteen {
-  grid-column: 3/5
+  grid-column: 3;
   grid-row: 4;
 }
 .fourteen {
-  grid-column: 4/5
+  grid-column: 4;
   grid-row: 4;
 }
 .fifteen {
-  grid-column: 5/5
+  grid-column: 5;
   grid-row: 4;
 }
 .sixteen {
-  grid-column: 1/5
+  grid-column: 1;
   grid-row: 5;
 }
 .seventeen {
-  grid-column: 2/5
+  grid-column: 2;
   grid-row: 5;
 }
 .eighteen {
-  grid-column: 3/5
+  grid-column: 3;
   grid-row: 5;
 }
 .nineteen {
-  grid-column: 4/5
+  grid-column: 4;
   grid-row: 5;
 }
 .twenty {
-  grid-column: 5/5
+  grid-column: 5;
   grid-row: 5;
 }
 .twentyOne {
-  grid-column: 1/5
+  grid-column: 1;
   grid-row: 6;
 }
 .twentyTwo {
-  grid-column: 2/5
+  grid-column: 2;
   grid-row: 6;
 }
 .twentyThree {
-  grid-column: 3/5
+  grid-column: 3;
   grid-row: 6;
 }
 .twentyFour {
-  grid-column: 4/5
+  grid-column: 4;
   grid-row: 6;
 }
 .twentyFive {
-  grid-column: 5/5
+  grid-column: 5;
   grid-row: 6;
 }
 
 </style>
 </head>
 <body>
-<div class="wrapper">
-  <div class="one"><input type="button" value="CLEAR"></input></div>
-  <div class="two"><input type="button" value="XTRA3"></input></div>
-  <div class="three"><input type="button" value="M+"></input></div>
-  <div class="four"><input type="button" value="M-"></input></div>
-  <div class="five"><input type="button" value="MR"></input></div>
-  <div class="six"><input type="button" value="+/-"></input></div>
-  <div class="seven"><input type="button" value="+"></input></div>
-  <div class="eight"><input type="button" value="1"></input></div>
-  <div class="nine"><input type="button" value="2"></input></div>
-  <div class="ten"><input type="button" value="3"></input></div>
-  <div class="eleven"><input type="button" value="%"></input></div>
-  <div class="twelve"><input type="button" value="-"></input></div>
-  <div class="thirteen"><input type="button" value="4"></input></div>
-  <div class="fourteen"><input type="button" value="5"></input></div>
-  <div class="fifteen"><input type="button" value="6"></input></div>
-  <div class="sixteen"><input type="button" value="XTRA1"></input></div>
-  <div class="seventeen"><input type="button" value="x"></input></div>
-  <div class="eighteen"><input type="button" value="7"></input></div>
-  <div class="nineteen"><input type="button" value="8"></input></div>
-  <div class="twenty"><input type="button" value="9"></input></div>
-  <div class="twentyOne"><input type="button" value="XTRA2"></input></div>
-  <div class="twentyTwo"><input type="button" value="/"></input></div>
-  <div class="twentyThree"><input type="button" value="."></input></div>
-  <div class="twentyFour"><input type="button" value="0"></input></div>
-  <div class="twentyFive"><input type="button" value="="></input></div>
+<div class="jumboWrapper">
+  <div class="wrapper">
+    <div class="buttons">
+      <div class="inputDisplay"><input class="graphicBox" type="input" value="graphicBox"></div>
+      <div class="one"><input class="btn" type="button" value="CLEAR"></div>
+      <div class="two"><input class="btn" type="button" value="XTRA3"></div>
+      <div class="three"><input class="btn" type="button" value="M+"></div>
+      <div class="four"><input class="btn" type="button" value="M-"></div>
+      <div class="five"><input class="btn" type="button" value="MR"></div>
+      <div class="six"><input class="btn" type="button" value="+/-"></div>
+      <div class="seven"><input class="btn" type="button" value="+"></div>
+      <div class="eight"><input class="btn" type="button" value="1"></div>
+      <div class="nine"><input class="btn" type="button" value="2"></div>
+      <div class="ten"><input class="btn" type="button" value="3"></div>
+      <div class="eleven"><input class="btn" type="button" value="%"></div>
+      <div class="twelve"><input class="btn" type="button" value="-"></div>
+      <div class="thirteen"><input class="btn" type="button" value="4"></div>
+      <div class="fourteen"><input class="btn" type="button" value="5"></div>
+      <div class="fifteen"><input class="btn" type="button" value="6"></div>
+      <div class="sixteen"><input class="btn" type="button" value="XTRA1"></div>
+      <div class="seventeen"><input class="btn" type="button" value="x"></div>
+      <div class="eighteen"><input class="btn" type="button" value="7"></div>
+      <div class="nineteen"><input class="btn" type="button" value="8"></div>
+      <div class="twenty"><input class="btn" type="button" value="9"></div>
+      <div class="twentyOne"><input class="btn" type="button" value="XTRA2"></div>
+      <div class="twentyTwo"><input class="btn" type="button" value="/"></div>
+      <div class="twentyThree"><input class="btn" type="button" value="."></div>
+      <div class="twentyFour"><input class="btn" type="button" value="0"></div>
+      <div class="twentyFive"><input class="btn" type="button" value="="></div>
+    </div>
+  </div>
 </div>
 </body>
 
