@@ -26,9 +26,11 @@ body {
   background-color: white;
   height: 50px;
   width: 395px;
-  font-size: 20px;
+  font-size: 40px;
+  text-align: right;
+  font-family: sans-serif;
 }
-.inputDisplay {
+.outputDisplay {
   grid-column: 1/5;
   grid-row: 1;
 }
