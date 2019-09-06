@@ -49,3 +49,23 @@ document.getElementById("zero").addEventListener("click", jam0);
 function jam0() {
   document.getElementById("displayX").innerHTML= 0;
 }
+document.getElementById("plus").addEventListener("click", jamPlus);
+
+function jamPlus() {
+  document.getElementById("displayX").innerHTML= "+";
+}
+document.getElementById("minus").addEventListener("click", jamMinus);
+
+function jamMinus() {
+  document.getElementById("displayX").innerHTML= "-";
+}
+document.getElementById("multiply").addEventListener("click", jamMultiply);
+
+function jamMultiply() {
+  document.getElementById("displayX").innerHTML= "*";
+}
+document.getElementById("divide").addEventListener("click", jamDivide);
+
+function jamDivide() {
+  document.getElementById("displayX").innerHTML= "/";
+}
