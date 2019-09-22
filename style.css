@@ -1,28 +1,57 @@
 body {
-  background-image: url("matrix-green-numbers.jpg");
+  /* background-image: url("matrix-green-numbers.jpg"); */
 }
 
 .jumboWrapper {
   background-color: black;
   width: 400px;
   margin: auto auto auto auto;
-
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
 }
 .btn {
   font-size: 20px;
-  height:80px;
+  height:90px;
   width: 80px;
-  border-radius: 15px;
+  border-radius: 50%;
   background-color: grey;
 }
 .clearX {
   font-size: 20px;
-  height:80px;
+  height:90px;
+  width: 160px;
+  border-radius: 15px;
+  background-color: red;
+}
+.plus {
+  font-size: 20px;
+  height:90px;
   width: 160px;
   border-radius: 15px;
   background-color: grey;
 }
- .buttons {
+.minus {
+  font-size: 20px;
+  height:90px;
+  width: 160px;
+  border-radius: 15px;
+  background-color: grey;
+}
+.mult {
+  font-size: 20px;
+  height:90px;
+  width: 160px;
+  border-radius: 15px;
+  background-color: grey;
+}
+.divide {
+  font-size: 20px;
+  height:90px;
+  width: 160px;
+  border-radius: 15px;
+  background-color: grey;
+}
+.buttons {
   display: grid;
   grid-template-columns: repeat(5, 0fr);
   grid-gap: 0px;
@@ -36,6 +65,8 @@ body {
   font-size: 40px;
   text-align: right;
   font-family: sans-serif;
+  border-radius: 10px;
+  padding: 2px 2px 2px 2px;
 }
 .outputDisplay {
   grid-column: 1/5;
@@ -66,7 +97,7 @@ body {
   grid-row: 3;
 }
 .seven {
-  grid-column: 2;
+  grid-column: 1/3;
   grid-row: 3;
 }
 .eight {
@@ -141,3 +172,9 @@ body {
   grid-column: 5;
   grid-row: 6;
 }
+#equal {
+  background-color: green;
+}
+/* #clear {
+  background-color: red;
+} */
