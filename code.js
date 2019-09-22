@@ -1,9 +1,5 @@
 // Javascript for CALCULATOR APP
-
-// numArray1.join();
-// console.log(numArray1.join([0,1,2]));
 var numArray1 = [];
-// document.getElementById("one").addEventListener("click", press1);
 
 const press1 = () => {
   var num1 = 1;
@@ -15,10 +11,6 @@ const press1 = () => {
 }
 document.getElementById("one").addEventListener("click", press1);
 
-// document.getElementById("two").addEventListener("click", press2);
-
-// press2();
-
 const press2 = () => {
   var num2 = 2;
   const array = numArray1.push(num2);
@@ -26,9 +18,7 @@ const press2 = () => {
   const connectedNum = numArray1.join('')
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
-
 }
-
 document.getElementById("two").addEventListener("click", press2);
 
 const press3 = () => {
@@ -39,9 +29,7 @@ const press3 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("three").addEventListener("click", press3);
-
 
 const press4 = () => {
   var num4 = 4;
@@ -51,7 +39,6 @@ const press4 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("four").addEventListener("click", press4);
 
 const press5 = () => {
@@ -62,7 +49,6 @@ const press5 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("five").addEventListener("click", press5);
 
 const press6 = () => {
@@ -73,7 +59,6 @@ const press6 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("six").addEventListener("click", press6);
 
 const press7 = () => {
@@ -84,7 +69,6 @@ const press7 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("seven").addEventListener("click", press7);
 
 const press8 = () => {
@@ -95,7 +79,6 @@ const press8 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("eight").addEventListener("click", press8);
 
 const press9 = () => {
@@ -106,7 +89,6 @@ const press9 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("nine").addEventListener("click", press9);
 
 const press0 = () => {
@@ -117,7 +99,6 @@ const press0 = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("zero").addEventListener("click", press0);
 
 const pressPlus = () => {
@@ -128,69 +109,4 @@ const pressPlus = () => {
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
 }
-
 document.getElementById("plus").addEventListener("click", pressPlus);
-
-const stringTranslator = (connectedNum) => {
-JSON.stringify(connectedNum);
-console.log(connectedNum);
-document.getElementById("displayX").innerHTML = connectedNum;
-}
-
-function pressEqual() {
-const eQ = document.getElementById("equal");
-const arrayCalc = document.getElementById("displayX").innerHTML;
-eQ.onclick = arrayCalc.value;
-console.log(ArrayCalc.value);
-}
-
-//
-// document.getElementById("displayX").innerHTML=
-//
-// document.getElementById("equal").addEventListener("click",jamEqual);
-//
-// function jamEqual() {
-//   var numEqual= "=";
-//   numArray1.push(numEqual);
-//   numArray1.toString();
-//   numArray1.join('')
-//   console.log(numArray1.join(''));
-// }
-//
-// document.getElementById('displayX').innerHTML= numArray1;
-//
-//
-// document.getElementById("plus").addEventListener("click",jamPlus);
-//
-// function jamPlus() {
-//   var numPlus= "+";
-//   numArray1.push(numPlus);
-//   console.log(numArray1);
-// }
-//
-//
-//
-//
-//
-// numArray1.join();
-//
-// document.getElementById("plus").addEventListener("click", jamPlus);
-//
-// function jamPlus() {
-//   document.getElementById("displayX").innerHTML= "+";
-// }
-// document.getElementById("minus").addEventListener("click", jamMinus);
-//
-// function jamMinus() {
-//   document.getElementById("displayX").innerHTML= "-";
-// }
-// document.getElementById("multiply").addEventListener("click", jamMultiply);
-//
-// function jamMultiply() {
-//   document.getElementById("displayX").innerHTML= "*";
-// }
-// document.getElementById("divide").addEventListener("click", jamDivide);
-//
-// function jamDivide() {
-//   document.getElementById("displayX").innerHTML= "/";
-// }
