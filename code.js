@@ -15,10 +15,8 @@ const press2 = () => {
   const array = numArray1.push(num2);
   const connectedNum = numArray1.join('');
   numArray1.toString();
-
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
-
 }
 document.getElementById("two").addEventListener("click", press2);
 
@@ -147,7 +145,11 @@ const pressEqual = () => {
 }
 document.getElementById("equal").addEventListener("click", pressEqual);
 
-const pressClear = (numArray1) => {
+const pressClear = () => {
     document.getElementById("displayX").innerHTML= "";
+    if (numArray1.length > 1) {
+      const clearingMethod = numArray1.splice(0, numArray1.length);
+      console.log(clearingMethod);
+    };
 }
 document.getElementById("clear").addEventListener("click", pressClear);

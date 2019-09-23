@@ -1,5 +1,10 @@
 body {
-  /* background-image: url("matrix-green-numbers.jpg"); */
+  background-color: #03dbfc;
+  /* background-image: url(moon.gif);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; */
 }
 
 .jumboWrapper {
@@ -10,46 +15,25 @@ body {
   border-radius: 10px;
 }
 .btn {
-  font-size: 20px;
+  font-size: 40px;
   height:90px;
   width: 80px;
   border-radius: 50%;
   background-color: grey;
 }
 .clearX {
-  font-size: 20px;
+  font-size: 40px;
   height:90px;
   width: 160px;
   border-radius: 15px;
   background-color: red;
 }
-.plus {
-  font-size: 20px;
+.operator {
+  font-size: 40px;
   height:90px;
   width: 160px;
   border-radius: 15px;
-  background-color: grey;
-}
-.minus {
-  font-size: 20px;
-  height:90px;
-  width: 160px;
-  border-radius: 15px;
-  background-color: grey;
-}
-.mult {
-  font-size: 20px;
-  height:90px;
-  width: 160px;
-  border-radius: 15px;
-  background-color: grey;
-}
-.divide {
-  font-size: 20px;
-  height:90px;
-  width: 160px;
-  border-radius: 15px;
-  background-color: grey;
+  background-color: blue;
 }
 .buttons {
   display: grid;
