@@ -1,10 +1,5 @@
 body {
   background-image: linear-gradient(to right, #0f0f0f 0%, #b37249 51%, #0f0f0f 100%);
-  /* background-image: url(moon.gif);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100%; */
 }
 
 .jumboWrapper {
@@ -14,34 +9,39 @@ body {
   padding: 15px 15px 15px 15px;
   border-radius: 10px;
 }
+
 .btn {
   font-size: 40px;
-  height:90px;
+  height: 90px;
   width: 80px;
   border-radius: 50%;
   background-image: linear-gradient(to right, #747875 0%, #a0a3a1 51%, #747875 100%);
 }
+
 .equal {
   font-size: 40px;
-  height:90px;
+  height: 90px;
   width: 80px;
   border-radius: 50%;
   background-image: linear-gradient(to right, #1f3820 0%, #5dba61 51%, #1f3820 100%);
 }
+
 .clearX {
   font-size: 40px;
-  height:90px;
+  height: 90px;
   width: 160px;
   border-radius: 15px;
   background-image: linear-gradient(to right, #6e1509 0%, #de2810 51%, #6e1509 100%);
 }
+
 .operator {
   font-size: 40px;
-  height:90px;
+  height: 90px;
   width: 160px;
   border-radius: 15px;
   background-image: linear-gradient(to right, #073a91 0%, #749de3 51%, #073a91 100%);
 }
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(5, 0fr);
@@ -49,6 +49,7 @@ body {
   grid-auto-rows: auto;
   text-align: center;
 }
+
 .graphicBox {
   background-color: white;
   height: 50px;
@@ -59,106 +60,132 @@ body {
   border-radius: 10px;
   padding: 2px 2px 2px 2px;
 }
+
 .outputDisplay {
   grid-column: 1/5;
   grid-row: 1;
 }
+
 .one {
   grid-column: 1/3;
   grid-row: 2;
 }
+
 .two {
   grid-column: 2;
   grid-row: 2;
 }
+
 .three {
   grid-column: 3;
   grid-row: 2;
 }
+
 .four {
   grid-column: 4;
   grid-row: 2;
 }
+
 .five {
   grid-column: 5;
   grid-row: 2;
 }
+
 .six {
   grid-column: 1;
   grid-row: 3;
 }
+
 .seven {
   grid-column: 1/3;
   grid-row: 3;
 }
+
 .eight {
   grid-column: 3;
   grid-row: 3;
 }
+
 .nine {
   grid-column: 4;
   grid-row: 3;
 }
+
 .ten {
   grid-column: 5;
   grid-row: 3;
 }
+
 .eleven {
   grid-column: 1;
   grid-row: 4;
 }
+
 .twelve {
   grid-column: 2;
   grid-row: 4;
 }
+
 .thirteen {
   grid-column: 3;
   grid-row: 4;
 }
+
 .fourteen {
   grid-column: 4;
   grid-row: 4;
 }
+
 .fifteen {
   grid-column: 5;
   grid-row: 4;
 }
+
 .sixteen {
   grid-column: 1;
   grid-row: 5;
 }
+
 .seventeen {
   grid-column: 2;
   grid-row: 5;
 }
+
 .eighteen {
   grid-column: 3;
   grid-row: 5;
 }
+
 .nineteen {
   grid-column: 4;
   grid-row: 5;
 }
+
 .twenty {
   grid-column: 5;
   grid-row: 5;
 }
+
 .twentyOne {
   grid-column: 1;
   grid-row: 6;
 }
+
 .twentyTwo {
   grid-column: 2;
   grid-row: 6;
 }
+
 .twentyThree {
   grid-column: 3;
   grid-row: 6;
 }
+
 .twentyFour {
   grid-column: 4;
   grid-row: 6;
 }
+
 .twentyFive {
   grid-column: 5;
   grid-row: 6;
