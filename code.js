@@ -146,10 +146,10 @@ const pressEqual = () => {
 document.getElementById("equal").addEventListener("click", pressEqual);
 
 const pressClear = () => {
-    document.getElementById("displayX").innerHTML= "";
-    if (numArray1.length > 1) {
-      const clearingMethod = numArray1.splice(0, numArray1.length);
-      console.log(clearingMethod);
-    };
+  document.getElementById("displayX").innerHTML = "";
+  if (numArray1.length > 1) {
+    const clearingMethod = numArray1.splice(0, numArray1.length);
+    console.log(clearingMethod);
+  };
 }
 document.getElementById("clear").addEventListener("click", pressClear);
