@@ -26,7 +26,7 @@ body {
   height:90px;
   width: 80px;
   border-radius: 50%;
-  background-image: linear-gradient(to right, #747875 0%, #a0a3a1 51%, #747875 100%);
+  background-image: linear-gradient(to right, #1f3820 0%, #5dba61 51%, #1f3820 100%);
 }
 .clearX {
   font-size: 40px;
