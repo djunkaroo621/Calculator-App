@@ -139,8 +139,8 @@ document.getElementById("decimal").addEventListener("click", pressDecimal);
 
 const pressEqual = () => {
   const evalNumbers = numArray1.join('');
-  const result = eval(evalNumbers);
-  console.log(result);
+  console.log(evalNumbers);
+    const result = eval(evalNumbers);
   document.getElementById("displayX").innerHTML = result;
 }
 document.getElementById("equal").addEventListener("click", pressEqual);
@@ -153,3 +153,7 @@ const pressClear = () => {
   };
 }
 document.getElementById("clear").addEventListener("click", pressClear);
+//
+// const pressMemorySave = () => {
+//   document.getElementById("displayX").innerHTML =
+// }
