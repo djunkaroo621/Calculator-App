@@ -2,8 +2,8 @@
 const numArray1 = [];
 
 const press1 = () => {
-  var num1 = "1";
-  const array = numArray1.push(num1);
+  // var num1 = "1";
+  const array = numArray1.push(document.getElementById("one").innerHTML);
   const connectedNum = numArray1.join('');
   console.log(numArray1.join(''));
   document.getElementById("displayX").innerHTML = connectedNum;
@@ -140,8 +140,9 @@ document.getElementById("decimal").addEventListener("click", pressDecimal);
 const pressEqual = () => {
   const evalNumbers = numArray1.join('');
   console.log(evalNumbers);
-    const result = eval(evalNumbers);
+  const result = eval(evalNumbers);
   document.getElementById("displayX").innerHTML = result;
+  console.log(result);
 }
 document.getElementById("equal").addEventListener("click", pressEqual);
 
@@ -150,10 +151,9 @@ const pressClear = () => {
   if (numArray1.length > 1) {
     const clearingMethod = numArray1.splice(0, numArray1.length);
     console.log(clearingMethod);
+    const numArrray1 = [];
+    console.log(numArray1);
+
   };
 }
 document.getElementById("clear").addEventListener("click", pressClear);
-//
-// const pressMemorySave = () => {
-//   document.getElementById("displayX").innerHTML =
-// }
